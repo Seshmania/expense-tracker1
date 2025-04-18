@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f9fafb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="pattern-circles" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="#94a3b8" opacity="0.3" />
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  <rect width="100%" height="100%" fill="url(#pattern-circles)" />
+  
+  <!-- Abstract shapes -->
+  <circle cx="100" cy="100" r="80" fill="#60a5fa" opacity="0.1" />
+  <circle cx="1100" cy="500" r="120" fill="#4ade80" opacity="0.1" />
+  <circle cx="600" cy="50" r="100" fill="#f87171" opacity="0.1" />
+  <circle cx="200" cy="450" r="60" fill="#fbcfe8" opacity="0.1" />
+  <circle cx="900" cy="150" r="90" fill="#fbbf24" opacity="0.1" />
+  
+  <!-- Curved lines -->
+  <path d="M0,300 C200,250 400,350 600,300 C800,250 1000,350 1200,300" stroke="#64748b" stroke-width="1" fill="none" opacity="0.2" />
+  <path d="M0,320 C300,380 600,280 900,380 C1050,430 1150,400 1200,380" stroke="#64748b" stroke-width="1" fill="none" opacity="0.2" />
+  
+  <!-- Indian Rupee symbols -->
+  <text x="300" y="200" font-family="Arial, sans-serif" font-size="40" fill="#64748b" opacity="0.1">₹</text>
+  <text x="700" y="400" font-family="Arial, sans-serif" font-size="60" fill="#64748b" opacity="0.1">₹</text>
+  <text x="900" y="300" font-family="Arial, sans-serif" font-size="30" fill="#64748b" opacity="0.1">₹</text>
+  <text x="500" y="500" font-family="Arial, sans-serif" font-size="50" fill="#64748b" opacity="0.1">₹</text>
+  <text x="1100" y="200" font-family="Arial, sans-serif" font-size="45" fill="#64748b" opacity="0.1">₹</text>
+  <text x="100" y="450" font-family="Arial, sans-serif" font-size="35" fill="#64748b" opacity="0.1">₹</text>
+</svg>

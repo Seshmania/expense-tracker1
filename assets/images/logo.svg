@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="120" viewBox="0 0 240 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="120" cy="60" r="50" fill="#FF5733" opacity="0.1"/>
+  
+  <!-- Rupee symbol -->
+  <g transform="translate(100, 45) scale(2.2)">
+    <path d="M14.5,2.5h-9C5.2,2.5,5,2.7,5,3v2c0,0.3,0.2,0.5,0.5,0.5h3c0.3,0,0.6,0.2,0.8,0.4C9.4,6.1,9.5,6.3,9.5,6.5h-4
+      C5.2,6.5,5,6.7,5,7v2c0,0.3,0.2,0.5,0.5,0.5h4v4.7c0,0.3,0.1,0.7,0.4,0.9c0.3,0.3,0.6,0.4,1,0.4h2.2c0.3,0,0.5-0.2,0.5-0.5
+      s-0.2-0.5-0.5-0.5h-2.2c-0.1,0-0.2,0-0.3-0.1c-0.1-0.1-0.1-0.2-0.1-0.3V9.5h5c0.3,0,0.5-0.2,0.5-0.5V7c0-0.3-0.2-0.5-0.5-0.5h-5
+      c0-0.8-0.3-1.6-0.9-2.2C9,3.8,8.2,3.5,7.4,3.5H6v-0.5h8.5C14.8,3,15,2.8,15,2.5v0C15,2.7,14.8,2.5,14.5,2.5z" 
+      fill="#FF5733"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="120" y="85" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="700" fill="#333333" text-anchor="middle">EXPENSE TRACKER</text>
+  
+  <!-- Coins -->
+  <circle cx="170" cy="50" r="15" fill="#FFD700" stroke="#E6B800" stroke-width="1.5"/>
+  <circle cx="170" cy="50" r="10" fill="#E6B800" stroke="#CC9900" stroke-width="1"/>
+  <text x="170" y="54" font-family="Arial" font-size="10" font-weight="bold" fill="white" text-anchor="middle">₹</text>
+  
+  <circle cx="180" cy="65" r="12" fill="#C0C0C0" stroke="#A8A8A8" stroke-width="1.5"/>
+  <circle cx="180" cy="65" r="8" fill="#A8A8A8" stroke="#808080" stroke-width="1"/>
+  <text x="180" y="68" font-family="Arial" font-size="8" font-weight="bold" fill="white" text-anchor="middle">₹</text>
+  
+  <circle cx="160" cy="70" r="10" fill="#CD7F32" stroke="#A86429" stroke-width="1.5"/>
+  <circle cx="160" cy="70" r="6" fill="#A86429" stroke="#8B4513" stroke-width="1"/>
+  <text x="160" y="73" font-family="Arial" font-size="7" font-weight="bold" fill="white" text-anchor="middle">₹</text>
+
+  <!-- Abstract financial graph -->
+  <polyline points="50,80 70,60 90,70 110,50 130,65" fill="none" stroke="#FF5733" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="50" cy="80" r="3" fill="#FF5733"/>
+  <circle cx="70" cy="60" r="3" fill="#FF5733"/>
+  <circle cx="90" cy="70" r="3" fill="#FF5733"/>
+  <circle cx="110" cy="50" r="3" fill="#FF5733"/>
+  <circle cx="130" cy="65" r="3" fill="#FF5733"/>
+</svg>
